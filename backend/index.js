@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 
+require('./db')
 
 app.get('/', (req, res) => {
     res.send('Hello Express')
