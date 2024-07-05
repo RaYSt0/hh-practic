@@ -1,12 +1,27 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
-  "author": "Timur Senatorov",
-  "license": "ISC",
   "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=dev&& nodemon index.js",
+    "start": "set NODE_ENV=production&& node index.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "keywords": [],
+  "author": "Timur Senatrov",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "mongoose": "^8.2.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
   }
 }
