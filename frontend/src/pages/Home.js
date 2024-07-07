@@ -10,6 +10,7 @@ import { ReactComponent as Glass } from '../assets/glass.svg';
 import { ReactComponent as Loading } from '../assets/loading.svg';
 import getVacancies from '../services/filterApi';
 import createVacancyElements from '../utils/vacanciesBuilder';
+import Vacancy from '../components/Vacancy';
 
 const Home = () => {
     const [info, setInfo] = useState({});
@@ -156,6 +157,15 @@ const Home = () => {
                 </div>
                 <div className={styles.vacancies}>
                     {createVacancyElements(vacancies)}
+                    <Vacancy
+                          name = {'Backen'}
+                          company = {'YA'}
+                          area = {'Москва'}
+                          responsibility = {'wewe'}
+                          requirements = {'dwdsd'}
+                          salary = {'30000'}
+                          currency=  {'rub'}
+                    />
                     <Pagination
                         totalPages={info && info.totalPages ? info.totalPages : 1}
                         currentPage={page}

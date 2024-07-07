@@ -252,28 +252,6 @@
                         onChange={(values) => handleChange('experience', values)}
                     />
                 </div>
-                <div className={styles.sideBar__area}>
-                    <div className={styles.sideBar__area__text}>Вид работы</div>
-                    <Select
-                        style={selectStyle}
-                        className="reactDropdownSelect"
-                        placeholder="Не важно"
-                        options={options.employment}
-                        values={selectedEmployment}
-                        onChange={(values) => handleChange('employment', values)}
-                    />
-                </div>
-                <div className={styles.sideBar__area}>
-                    <div className={styles.sideBar__area__text}>График работы</div>
-                    <Select
-                        style={selectStyle}
-                        className="reactDropdownSelect"
-                        placeholder="Не важно"
-                        options={options.schedule}
-                        values={selectedSchedule}
-                        onChange={(values) => handleChange('schedule', values)}
-                    />
-                </div>
             </div>
         );
     };
