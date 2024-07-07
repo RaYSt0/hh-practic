@@ -1,0 +1,86 @@
+.reactDropdownSelect {
+    font-family: 'Onest', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    .react-dropdown-select-option {
+        border: 1px solid #05b8e4;
+    }
+    .react-dropdown-select-content {
+        span {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+    }
+
+    .react-dropdown-select-input {
+        height: 39px;
+        margin-left: 20px;
+        font-family: 'Onest', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #9da3aa; // input
+        box-shadow: none;
+        outline: none;
+    }
+
+    .react-dropdown-select-dropdown-add-new {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .react-dropdown-select-dropdown-handle:focus {
+        path {
+            stroke: none;
+        }
+    }
+
+    .react-dropdown-select-dropdown-handle:hover {
+        path {
+            stroke: none;
+        }
+    }
+
+    .react-dropdown-select-dropdown-handle {
+        svg {
+            height: 32px;
+            width: 32px;
+            color: #9da3aa;
+        }
+        margin-right: 10px;
+        box-shadow: none;
+        outline: none;
+    }
+
+    .react-dropdown-select-dropdown {
+        border: none;
+        border: 1px solid #c6c6c6;
+        border-radius: 9px;
+        outline: none;
+        :hover {
+            filter: brightness(80%);
+        }
+        // hover item
+    }
+
+    .react-dropdown-select-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        padding: 10px 0px 10px 25px;
+        font-size: 16px;
+        color: #343434; // non selected in dropdown
+        border-bottom: 1px inside solid #343434;
+        :last-child {
+            border: none;
+        }
+    }
+    .react-dropdown-select-item.react-dropdown-select-item-selected,
+    .react-dropdown-select-item.react-dropdown-select-item-active {
+        background: #111; // selected in dropdown
+        border-bottom: 1px inside solid #343434;
+        color: #fff;
+        font-weight: bold;
+        :last-child {
+            border: none;
+        }
+    }
+}

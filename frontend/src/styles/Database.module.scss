@@ -1,0 +1,41 @@
+.container {
+    margin-top: 60px;
+    position: absolute;
+    left: 25px;
+    top: 22px;
+    width: 100vw;
+}
+.text {
+    width: 100vw;
+    &__left {
+        font-family: 'Onest', sans-serif;
+        color: #343434;
+        font-size: 24px;
+        color: #343434;
+        font-weight: bold;
+        margin-left: 12.5px;
+        margin-top: 33px;
+        
+    }
+    &__right {
+        position: absolute;
+        right: 63px;
+        font-family: 'Onest', sans-serif;
+        color: #9d9ca0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.footer {
+    position: relative;
+    top: -75px;
+}
+
+.vacancies {
+    position: absolute;
+    display: block;
+    min-width: 725px;
+    width: calc(100vw - 74px);
+    top: 60px;
+    left: 15px;
+}

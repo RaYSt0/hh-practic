@@ -1,0 +1,33 @@
+.container {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+}
+.pages{
+    display: inline;
+    border: 1px solid #e4e4e4;
+    background-color: #FAFAFB;
+    padding: 5px 10px;
+    font-family: 'Onest', sans-serif;
+    border-radius: 9px;
+    color: #343434;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+    transition: all 60ms linear;
+    cursor: pointer;
+    &:hover {
+        filter: brightness(80%);
+    }
+}
+.current{
+    cursor:auto;
+    font-weight: 600;
+    transition: all 60ms linear;
+    filter: brightness(80%);
+    &:hover {
+        filter: brightness(80%);
+    }
+}
