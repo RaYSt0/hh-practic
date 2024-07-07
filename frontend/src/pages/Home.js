@@ -158,7 +158,7 @@ const Home = () => {
                 <div className={styles.vacancies}>
                     {createVacancyElements(vacancies)}
                     <Vacancy
-                          name = {'Backen'}
+                          name = {'Backend'}
                           company = {'YA'}
                           area = {'Москва'}
                           responsibility = {'wewe'}
